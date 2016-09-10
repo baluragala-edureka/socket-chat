@@ -1,0 +1,17 @@
+
+events
+			 emit	   on
+connection - socket(p) server (s)
+disconnet  - socket(p) server(s)
+
+new user - client (p) server(s)
+
+send message - client(p) server (s)
+
+usernames - server(p) client(s) -> all online users
+
+new message - server(p) client(s) -> bring new message that server receives 
+
+whisper - server(p) client(s)
+
+private - server(p) client(s)
